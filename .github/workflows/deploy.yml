@@ -28,10 +28,12 @@ jobs:
         run: cd frontend && npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Copy to docs directory
+        run: mkdir -p docs && cp -r frontend/dist/* docs/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: './frontend/dist'
+          path: './docs'
 
   deploy:
     environment:
