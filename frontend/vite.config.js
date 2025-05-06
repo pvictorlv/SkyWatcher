@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/SkyWatcher/', // GitHub Pages repository name
+  base: '/SkyWatcher/', // GitHub Pages repository name (pvictorlv/SkyWatcher)
   server: {
     port: 53965,
     host: true,

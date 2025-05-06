@@ -4,7 +4,7 @@ SkyWatcher is a web application that provides daily reports of interesting astro
 
 ## Live Demo
 
-Visit the live application: [SkyWatcher on GitHub Pages](https://openhands.github.io/SkyWatcher/)
+Visit the live application: [SkyWatcher on GitHub Pages](https://pvictorlv.github.io/SkyWatcher/)
 
 ## Features
 
@@ -26,7 +26,7 @@ Visit the live application: [SkyWatcher on GitHub Pages](https://openhands.githu
 
 1. Clone the repository:
    ```
-   git clone https://github.com/openhands/SkyWatcher.git
+   git clone https://github.com/pvictorlv/SkyWatcher.git
    cd SkyWatcher
    ```
 
